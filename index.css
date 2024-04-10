@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.appbody{
+    background-image: linear-gradient(rgb(131, 201, 251), black);
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    height: fit-content;
+    background-image: linear-gradient(rgb(174, 220, 252), rgb(44, 44, 44));
+    margin-bottom: 70px;
+}
+.searchbar{
+    margin: 15px 0px;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.searchbar > input{
+    width: 500px;
+    padding: 7px;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(0,0,0,0);
+    text-indent: 20px;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+.currweather{
+    padding: 20px;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.temp{
+    color: rgb(140, 205, 251);
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.currweatherdetails{
+    font-size: 30px;
+    color: white;
+}
+
+.remainingdetails{
+    color: white;
+}
+
+.remdetailsheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.remdetailsleft{
+    display: flex;
+}
+
+.status{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.material-symbols-outlined {
+    font-size: 60px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.remdetailsright{
+    padding-top: 15px;
+}
+
+.top{
+    margin-bottom: 10px;
+}
+
+.records{
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.overview{
+    color: white;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.overviewdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.daydiv{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 15px;
+    flex: 0.3;
+    padding: 20px;
+    
+}
+.divdate{
+    margin-bottom: 15px;
+}
+
+.divsymbol > span {
+    font-size: 40px;
+    margin-bottom: 10px;;
+}
+
+.divtemp{
+    font-size: 30px;
+}
+
+::placeholder{
+    color: white;
+}
